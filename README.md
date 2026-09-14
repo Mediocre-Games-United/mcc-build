@@ -29,7 +29,7 @@ rm -rf /tmp/mcc-build
 ```bash
 mkdir /tmp/mcc-build
 cd /tmp/mcc-build
-curl -OJ https://raw.githubusercontent.com/Mediocre-Games-United/mcc-build/refs/heads/main/PKGBUILD?token=GHSAT0AAAAAAEH25ETOSDJQ5ZQBEU22GGE62VH2U4Q
+curl -OJ https://raw.githubusercontent.com/Mediocre-Games-United/mcc-build/refs/heads/main/PKGBUILD
 makepkg -si
 rm -rf /tmp/mcc-build
 ```
