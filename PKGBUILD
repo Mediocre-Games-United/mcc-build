@@ -19,4 +19,6 @@ package() {
     cd "$srcdir/mcc"
     ls
     install -Dm755 "export/LINUXRELEASE/mcc" "$pkgdir/usr/bin/mcc"
+    install -Dm644 "mcc.desktop" "$pkgdir/usr/share/applications/mcc.desktop"
+    install -Dm644 "application-x-mcc.xml" "$pkgdir/usr/share/mime/packages/x-mcc.xml"
 }
