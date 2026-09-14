@@ -1,0 +1,7 @@
+# arch build files
+
+src
+pkg
+mcc
+
+*.pkg.tar.zst
