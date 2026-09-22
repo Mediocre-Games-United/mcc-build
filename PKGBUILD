@@ -1,5 +1,5 @@
 pkgname=mcc
-pkgver=0.1.0
+pkgver=0.2.0
 pkgrel=1
 pkgdesc="mcc compiler collection build systems"
 arch=("x86_64")
