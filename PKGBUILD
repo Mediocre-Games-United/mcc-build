@@ -3,7 +3,7 @@ pkgver=0.1.0
 pkgrel=1
 pkgdesc="mcc compiler collection build systems"
 arch=("x86_64")
-depends=("glibc" "gcc")
+depends=("glibc" "gcc" "mingw-w64-gcc")
 options=('!debug')
 makedepends=("gcc" "make" "git")
 
