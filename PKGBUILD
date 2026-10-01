@@ -5,7 +5,7 @@ pkgdesc="mcc compiler collection build systems"
 arch=("x86_64")
 depends=("glibc" "gcc" "mingw-w64-gcc")
 options=('!debug')
-makedepends=("gcc" "make" "git")
+makedepends=("gcc" "make" "git" "mesa" "glew")
 
 source=("git+https://github.com/Mediocre-Games-United/mcc.git")
 sha256sums=('SKIP')
