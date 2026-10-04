@@ -1,9 +1,9 @@
 pkgname=mcc
 pkgver=0.2.0
-pkgrel=1
+pkgrel=2
 pkgdesc="mcc compiler collection build systems"
 arch=("x86_64")
-depends=("glibc" "gcc" "mingw-w64-gcc")
+depends=("glibc" "gcc" "mingw-w64-gcc" "zip" "tar" "gzip" "curl")
 options=('!debug')
 makedepends=("gcc" "make" "git" "mesa" "glew")
 
