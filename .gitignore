@@ -2,6 +2,8 @@
 
 src
 pkg
-mcc
+
+mcc/
+mcc-build/
 
 *.pkg.tar.zst
