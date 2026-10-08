@@ -1,6 +1,6 @@
 pkgname=mcc
-pkgver=0.2.1
-pkgrel=3
+pkgver=0.3.0
+pkgrel=4
 pkgdesc="mcc compiler collection build systems"
 arch=("x86_64")
 depends=("glibc" "gcc" "mingw-w64-gcc" "zip" "tar" "gzip" "curl")
