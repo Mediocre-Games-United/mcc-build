@@ -1,5 +1,5 @@
 pkgname=mcc
-pkgver=0.5.1
+pkgver=0.5.2
 pkgrel=5
 pkgdesc="mcc compiler collection build systems"
 arch=("x86_64")
@@ -7,7 +7,7 @@ depends=("glibc" "gcc" "mingw-w64-gcc" "zip" "tar" "gzip" "curl" "github-cli")
 options=('!debug')
 makedepends=("tar" "git")
 
-source=('git+https://github.com/Mediocre-Games-United/mcc.git' 'bin.tar.gz::https://github.com/Mediocre-Games-United/mcc/releases/download/v0.5.1/mcc-release-v0.5.1-linux-x86_64.tar.gz')
+source=('git+https://github.com/Mediocre-Games-United/mcc.git' 'bin.tar.gz::https://github.com/Mediocre-Games-United/mcc/releases/download/v0.5.2/mcc-release-v0.5.2-linux-x86_64.tar.gz')
 sha256sums=('SKIP' 'SKIP')
 
 package() {
